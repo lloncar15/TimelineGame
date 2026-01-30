@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e9f062b0d32470aa19f321be2bf7309, type: 3}
+  m_Name: CardViewConfig
+  m_EditorClassIdentifier: 
+  idleTiltAmplitude: 10
+  idleTiltSpeed: 1
+  idlePhaseOffsetPerCard: 0.5
+  idleTiltTimeModifier: 10
+  selectedScale: 1.05
+  selectedRaiseAmount: 30
+  selectionDuration: 0.15
+  selectionEase: 27
+  hoverScale: 1.08
+  hoverScaleDuration: 0.1
+  hoverShakeIntensity: 5
+  hoverShakeDuration: 0.2
+  hoverMouseTiltMax: 15
+  hoverMouseTiltSpeed: 10
+  shadowPressedOffset: {x: 3, y: -3}
+  shadowOffsetDuration: 0.08
+  dragTiltMaxAngle: 15
+  dragFollowSpeed: 15
+  dragTiltSpeed: 8
+  dragSortingOrder: 100
+  dragSnapBackDuration: 0.25
+  dragSnapBackEase: 27
+  movementTiltMaxAngle: 15
+  movementTiltSpeed: 8
+  movementTiltVelocityScale: 0.002
+  defaultSortingOrder: 0
