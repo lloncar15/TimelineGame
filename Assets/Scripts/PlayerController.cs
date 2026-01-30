@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     private void HorizontalMovement(float x)
     {
-        _animator.SetFloat(Movement, Mathf.Abs(x));
+        // _animator.SetFloat(Movement, Mathf.Abs(x));
         _rigidbody2D.linearVelocity = (new Vector2(x * _playerCharacterProperties._moveSpeed, _rigidbody2D.linearVelocity.y));
         
         if (x > 0 && _isFlipped || x < 0 && !_isFlipped)
